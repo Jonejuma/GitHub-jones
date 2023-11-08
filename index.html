@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jone Juma Design/ IT - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ------------------------------Header------------------------ -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <svg class="menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" onclick="closemenu()" /></svg>
+                </ul>
+                <svg class="menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" onclick="openmenu()"/></svg>
+            </nav>
+            <div class="header-text">
+                <p>IT/Designer Gráfico</p>
+                <h1>Olá, me chamo <br> <span>Jone</span> Juma Amade</h1>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------Sobre------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abou-col-1">
+                    <img src="eu.jpg" alt="Me">
+                </div>
+                <div class="abou-col-2">
+                    <h1 class="sub-title">Sobre Mim</h1>
+                    <p>Sou um profissional versátil com uma paixão pelo mundo do design gráfico, TI e tecnologia em geral. Minha experiência abrange uma gama diversificada de áreas, incluindo manutenção de hardware, configuração de redes de computadores e design de marcas.</p>
+            
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('habilidades')">Habilidades</p>
+                        <p class="tab-links" onclick="opentab('experiencia')">Experiência</p>
+                        <p class="tab-links" onclick="opentab('formacao')">Formação</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="habilidades">
+                        <ul>
+                            <li><span>Suporte Informático</span><br>Instalação, Reparação e Manutenção de Computadores, Atualizção de Drivers, Backup,...</li>
+                            <li><span>Redes de Computadores</span><br>Reestruturação, Instalação e Configuração de Redes de pequenas e media dimensão.</li>
+                            <li><span>Designe Gráfico</span><br>Logotipos, Identidades Visuais, post-Social Media, Banners, Flyers, Cartão de Visita</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experiencia">
+                        <ul>
+                            <li><span>2022-Lumbo-Mussuril</span><br>Estágio no Instituto Politécnico Mártir Cipriano de Lumbo - Província de Nampula</li>
+                            <li><span>2023 - Namialo</span><br>Estágio no Instituto de Investigação Agrária de Moçambique - Província de Nampula</li>
+                            <li><span>2023 - Nampula</span><br>Estágio na empresa Telecomunicações de Moçambique (TMCEL) - Província de Nampula</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="formacao">
+                        <ul>
+                            <li><span>7ª Classe</span><br>Escola Primária Completa de Namicopo-Sede</li>
+                            <li><span>12ª Classe</span><br>Escola Secundária de Namicopo</li>
+                            <li><span>Administração de Sistemas e Redes</span><br>Instituto Politécnico Mártir Cipriano de Nacuxa</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------Serviços------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Meus Serviços</h1>
+            <div class="services-list">
+                <div>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 3.2c0-.663-.537-1.2-1.2-1.2h-17.6c-.663 0-1.2.537-1.2 1.2v11.8h20v-11.8zm-2 9.8h-16v-9h16v9zm2 3h-20c-.197.372-2 4.582-2 4.998 0 .522.418 1.002 1.002 1.002h21.996c.584 0 1.002-.48 1.002-1.002 0-.416-1.803-4.626-2-4.998zm-12.229 5l.467-1h3.523l.467 1h-4.457z"/></svg>
+                    <h2>Informatica</h2>
+                    <p>Prestação de serviços de suporte técnico em hardware, garantindo a manutenção e funcionamento eficiente dos sistemas.
+                    </p>
+                <a href="#">Saber mais</a>
+                </div>
+                <div>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.014 6.54s2.147-3.969 3.475-6.54l8.511 8.511c-2.583 1.321-6.556 3.459-6.556 3.459l-5.43-5.43zm-8.517 6.423s-1.339 5.254-3.497 8.604l.827.826 3.967-3.967c.348-.348.569-.801.629-1.288.034-.27.153-.532.361-.74.498-.498 1.306-.498 1.803 0 .498.499.498 1.305 0 1.803-.208.209-.469.328-.74.361-.488.061-.94.281-1.288.63l-3.967 3.968.826.84c3.314-2.133 8.604-3.511 8.604-3.511l4.262-7.837-3.951-3.951-7.836 4.262z"/></svg>
+                    <h2>Design Gráfico</h2>
+                    <p>Criação de marcas distintas, logotipos e banners atraentes para empresas e indivíduos, com foco na construção de identidades visuais memoráveis e impactantes.</p>
+                <a href="#">Saber mais</a>
+                </div>
+                <div>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.043 17.496l-1.483 1.505c-2.79-2.201-4.56-5.413-4.56-9.001s1.77-6.8 4.561-9l1.483 1.504c-2.327 1.835-3.805 4.512-3.805 7.496s1.478 5.661 3.804 7.496zm8.957-7.496c0-1.657-1.344-3-3-3s-3 1.343-3 3c0 1.304.838 2.403 2 2.816v10.184h2v-10.184c1.162-.413 2-1.512 2-2.816zm-8.282 0c0-1.791.887-3.398 2.282-4.498l-1.481-1.502c-1.86 1.467-3.04 3.608-3.04 6s1.18 4.533 3.04 6l1.481-1.502c-1.396-1.1-2.282-2.707-2.282-4.498zm12.722-9l-1.483 1.504c2.326 1.835 3.804 4.512 3.804 7.496s-1.478 5.661-3.804 7.496l1.483 1.505c2.79-2.201 4.56-5.413 4.56-9.001s-1.77-6.8-4.56-9zm-2.959 3l-1.481 1.502c1.396 1.101 2.282 2.707 2.282 4.498s-.886 3.398-2.282 4.498l1.481 1.502c1.86-1.467 3.04-3.608 3.04-6s-1.179-4.533-3.04-6z"/></svg>
+                    <h2>Redes de Computadores</h2>
+                    <p>Solução de problemas e configuração de redes de computadores, assegurando a estabilidade e segurança dos ambientes tecnológicos.
+                    </p>
+                <a href="#">Saber mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------Portfolio------------------------ -->
+    <div id="portfolio">
+    <div class="container">
+            <h1 class="sub-title">Meu Trabalho</h1>
+            <div class="work-list-1">
+                <div class="work">
+                    <img src="3.png" alt="">
+                    <div class="layer">
+                        <h3>Camões Trading</h3>
+                        <p>Uma organização versátil e especializada que combina habilidades práticas de 
+                            construção com conhecimentos técnicos e consultivos para atender às necessidades de seus clientes.</p>
+                            <a href="#">
+                                <svg class="share" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sertive.png" alt="">
+                    <div class="layer">
+                        <h3>SERTIVE</h3>
+                        <p>Uma empresa de multiserviços que se dedica a oferecer uma ampla gama de serviços para atender às diversas necessidades dos clientes.</p>
+                        <a href="">
+                            <svg class="share" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="maenatural.png" alt="">
+                    <div class="layer">
+                        <h3>Mãe Natural</h3>
+                        <p>Uma empresa dedicada à produção e venda de produtos orgânicos de alta qualidade, contribuindo para a promoção de uma alimentação saudável.</p>
+                        <a href="">
+                            <svg class="share" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list-2">
+            <div class="work">
+                <img src="fjs2.png" alt="">
+                <div class="layer">
+                    <h3>FJS</h3>
+                    <p>Uma empresa revendedora de cosméticos que vende produtos de beleza e cuidados pessoais da Avon para clientes individuais.</p>
+                    <a href="">
+                        <svg class="share" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="dacunha.png" alt="">
+                <div class="layer">
+                    <h3>Da Cunha</h3>
+                    <p>Uma empresa de engenharia que se destaca por sua excelência técnica, inovação e compromisso com a qualidade.</p>
+                    <a href="">
+                        <svg class="share" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="camoesv1.png" alt="">
+                <div class="layer">
+                    <h3>Camões Trading</h3>
+                    <p>Uma empresa de consultoria de confiança que oferece soluções personalizadas para atender às necessidades únicas de seus clientes.</p>
+                    <a href="">
+                        <svg class="share" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <a class="btn" href="#">Ver mais...</a>
+    </div>
+    </div>
+<!-- ------------------------------Contactos------------------------ -->
+    <div id="contact">
+             <div class="container">
+                 <div class="row">
+                     <div class="contact-left">
+                         <h1 class="sub-title">Me contacte</h1>
+                         <p><svg class="ctt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
+                             ajonejuma@gmail.com</p>
+                         <p><svg class="ctt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 0v3h-8c-1.104 0-2 .896-2 2v17c0 1.104.896 2 2 2h8c1.104 0 2-.896 2-2v-22h-2zm0 13h-8v-7h8v7z"/></svg>
+                             +258 86 675 7428</p>
+                         <div class="social-icons">
+                            <a href="https://www.behance.net/amadejonejuma1" target="_blank" rel="noopener noreferrer">
+                                <svg class="icone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.003 12.333h-3.018c.289-1.977 2.902-1.715 3.018 0zm-9.742.667h-2.261v2.01h2.228c2.036 0 1.911-2.01.033-2.01zm-.08-4h-2.181v2h2.389c1.673 0 1.938-2-.208-2zm15.819-9v24h-24v-24h24zm-10 8h5v-1h-5v1zm-3.552 3.618c1.907-.974 1.837-4.55-1.813-4.604h-4.635v9.978h4.311c4.522 0 4.445-4.534 2.137-5.374zm9.487.602c-.274-1.763-1.529-2.95-3.583-2.95-2.095 0-3.352 1.34-3.352 3.947 0 2.631 1.368 3.783 3.417 3.783 2.048 0 3.106-1.135 3.4-2h-2.112c-.737.855-2.893.521-2.767-1.353h5.059c.01-.634-.011-1.089-.062-1.427z"/>
+                                </svg>
+                            </a>
+                            <a href="https://web.facebook.com/profile.php?id=61550850173114" target="_blank">
+                                <svg class="icone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+                                </svg>
+                            </a>
+                            <a href="https://instagram.com/jonejumaamade?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer">
+                                <svg class="icone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=258866757428&text=Olá, tudo bem? Boas-vindas à [nome da empresa]! Meu nome é [nome] e estou à sua disposição. Primeiro, quero entender melhor o motivo do seu contato para que eu possa ajudar você!" target="_blank">
+                                <svg class="icone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                                </svg>
+                            </a>
+                         </div>
+                         <a href="/CV.pdf" download class="btn btn2">Baixar CV</a>
+                     </div>
+                     <div class="contact-right">
+                         <form action="https://formsubmit.co/ajonejuma@gmail.com" method="POST">
+                             <input type="text" name="Name" placeholder="Seu nome" required>
+                             <input type="text" name="Email" placeholder="Seu E-mail" required>
+                             <textarea name="Message" rows="6" placeholder="Sua mensagem"></textarea>
+                             <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                             <button type="submit" class="btn btn2">Enviar</button>
+                         </form>
+                         <span id="msg"></span>
+                     </div>
+                 </div>
+             </div>
+             <div class="copyright">
+                 <p>Copyright <svg class="copy" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.301 4c.411 0 .699.313.699.663 0 .248-.145.515-.497.702-1.788.948-3.858 4.226-3.858 6.248 3.016-.092 4.326 2.582 4.326 4.258 0 2.007-1.738 4.129-4.308 4.129-3.24 0-4.83-2.547-4.83-5.307 0-5.98 6.834-10.693 8.468-10.693zm-10.833 0c.41 0 .699.313.699.663 0 .248-.145.515-.497.702-1.788.948-3.858 4.226-3.858 6.248 3.016-.092 4.326 2.582 4.326 4.258 0 2.007-1.739 4.129-4.308 4.129-3.241 0-4.83-2.547-4.83-5.307 0-5.98 6.833-10.693 8.468-10.693z" fill-rule="nonzero"/></svg> Jone <svg class="copy" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.301 4c.411 0 .699.313.699.663 0 .248-.145.515-.497.702-1.788.948-3.858 4.226-3.858 6.248 3.016-.092 4.326 2.582 4.326 4.258 0 2.007-1.738 4.129-4.308 4.129-3.24 0-4.83-2.547-4.83-5.307 0-5.98 6.834-10.693 8.468-10.693zm-10.833 0c.41 0 .699.313.699.663 0 .248-.145.515-.497.702-1.788.948-3.858 4.226-3.858 6.248 3.016-.092 4.326 2.582 4.326 4.258 0 2.007-1.739 4.129-4.308 4.129-3.241 0-4.83-2.547-4.83-5.307 0-5.98 6.833-10.693 8.468-10.693z" fill-rule="nonzero"/></svg> 2023 - Todos os Direitos reservados</p>
+             </div>
+    </div>
+<!-- ------------------------------Java-Habilidades------------------------ -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+<!-- ------------------------------Java-Menu------------------------ -->
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px"; // Fecha o menu lateral
+    }
+</script>
+  
+
+</body>
+</html>
